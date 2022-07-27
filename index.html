@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>To Do List App</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h1 class="card-title">Todo App</h1>
+        <div class="card-body">
+          <form class="todo_form">
+            <input
+              type="text"
+              placeholder="Enter a task here..."
+              id="inputTodo"
+              required
+            />
+            <!-- required -->
+            <button type="submit" id="addTodo" class="btn">Add Task</button>
+          </form>
+          <!-- Show Message -->
+          <p id="message"></p>
+          <!-- Display Error -->
+          <h2 id="error"></h2>
+          <!-- Display Data -->
+          <ul id="lists">
+            <h3 class="task_list_title">Task List</h3>
+          </ul>
+          <!-- <div id="display"></div> -->
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
